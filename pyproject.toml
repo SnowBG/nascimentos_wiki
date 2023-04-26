@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hoje-tem"
+version = "0.1.0"
+description = "Este programa tem como finalidade buscar na Wikipedia em português os eventos, datas comemorativas, aniversários e obtuários da data atual."
+authors = ["snowbg <snowbg@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hoje_tem"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.8"
+selenium = "^4.8"
+requests = "^2.28.2"
+webdriver-manager = "^3.8.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
